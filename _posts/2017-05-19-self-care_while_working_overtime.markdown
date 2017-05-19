@@ -1,0 +1,13 @@
+---
+layout: post
+title:  Self-Care While Working Overtime
+date:   2017-05-19 00:14:58 +0000
+---
+
+​
+At the time of writing this blog post, I am starting the final projects of the Object Oriented Programming section.  I'm excited for my first portfolio project!  I definitely need more experience with programming CLI.  One of the biggest issues I have come by is the amount of time spent sitting in a chair.  My day job is highly technical and detail-oriented.  I have few meetings and spend most of the day typing at a desk.  Before starting Flatiron I was having minor pain in my wrists that I attributed to doing yoga. Some positions require balancing with your hands on the ground.  It turned out that yoga was helping and cutting back to program made it worse.  Shortly into the Ruby section I realized that while typing, I relied too heavily on my right pinky to hit the shift key causing unnatural twisting in my right hand.  Prior to this I did not realize that I rarely used my left hand for the shift key.  In Ruby variable names with multiple words are separated by an underscore.  Because of the underscores programming in Ruby was super uncomfortable!  I had to take some time to find a solution.  Downward dog was helping to relieve it but I also have less time for exercise.  It took a few weeks but I retrained myself to use both hands equally to press the shift key.  I am twisting my wrists much less while typing and seeing a major improvement!  My main hobby is jewelry-making which requires fine motor skills and can be hard on my hands and wrists as well.  This blog post is a reminder to listen to your body and take care of it.  Carving out time for exercise is much more difficult while learning skills like this outside of a full-time job.  I feel energized and relaxed after a good vinyasa session and I appreciate the added spiritual connections.  Yoga led me to a meditation practice which I highly recommend to anyone who needs to declutter their mind.  Here is a good reference for yoga that can be done in your chair.  It's a great way to take a moment for yourself while working at the computer.  Your body will thank you for it.  
+​
+<p>[Verywell.com](https://www.verywell.com/chair-yoga-poses-3567189)
+​
+<p>[Chopra.com](http://www.chopra.com/articles/chair-yoga-flow-for-all-levels?sso_redirect=1&sso_code=eyJpdiI6IkJSZXhIT2JsN2UwbGl6UmxuT3dSdEE9PSIsInZhbHVlIjoiRGhFRWNMeUNYVkl2YUZxK1JJMm1PR054dHFobnlYUWpBM1ZYeitrMGE3b1RMRythaVdXWHdZc3RzdEZIWmtiVTI1OU1sMmtTVXNRSmpQVmh2Tk5zM2o5K29nNmNnWUdZakhLVm9vSDVQeU09IiwibWFjIjoiMmE4NzczODM0MWFjMjNjZTYyMGVjYzEzNjIxNzg5NDExNGFiZWJkNjVmYzU4NDEzNTU2ZmQ3NDgyOTQwNmIzZCJ9#sm.0017g9qn8zanfel10by2povv5x1xd)
+
