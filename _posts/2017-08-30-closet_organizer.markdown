@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Closet Organizer"
-date:   2017-08-30 02:15:57 +0000
+date:   2017-08-29 22:15:58 -0400
 ---
 
 
@@ -18,15 +18,14 @@ end
 
 This creates a record on the join table which also has a column for `user_id`.  The `#add_item` function is called in two places.  On an outfit show page, there is an "add to outfit" link next to each of the user's clothing items.  This link routes directly to the `ItemOutfitsController` `#create` action that builds an `item_outfit` record.  The `#create` action calls the `#add_item` method to set the `item_id` and `user_id` through the ActiveRecord `#build` method.  I find writing out links explicitly to controllers without helper methods confusing so this was good practice.  I definitely appreciate the link helpers and route generators.  The `#add_item` function is also called in the `OutfitsController` `#create` action if a new outfit is created from a clothing item show page through a nested route.  
 
-For the ActiveRecord scope method I created an `Item` class method `#most_used_items` that picks out the items that were used in the most frequently outfits.  The function counts the number of `item_outfits` records for each `item_id` and limits the query to `current_user`.  I thought there would be a something like a `#mode` function available but there is not.  After much googling, I found a way to break down the SQL query as 
+For the ActiveRecord scope method I created an `Item` class method `#most_used_items` that picks out the items that were used in the most frequently outfits.  The function counts the number of `item_outfits` records for each `item_id` and a second function limits the query to `current_user`.  I thought there would be a something like a `#mode` function available but there is not.  After much googling, I found a way to break down the SQL query as 
 
 ```
 scope :most_used_items_by_user, -> {
    select("*, count(item_outfits.id) AS outfits_count").
    left_joins(:item_outfits).
    group("items.id").
-   order("outfits_count DESC").
-   where(:user_id => user.id) }
+   order("outfits_count DESC"}
 ```
 
 This was a challenging project but I enjoyed working through each feature.  I am proud of the final product and how dry the code is.  The Rails magic really shows through how minimal the controllers and views are in the end.  Completing a project from start to finish solidified the Rails foundations since many of the Rails labs were mostly completed to begin with to focus on one topic. 
