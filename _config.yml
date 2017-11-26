@@ -1,10 +1,10 @@
 # Site settings
-title: MESsy Blog
+title: Code MESsy
 header-img: img/home-bg.png
 email: mollie.stein@gmail.com
 copyright_name: mess3109
 description: > # this means to ignore newlines until "baseurl:"
-  Always looking for something new to learn and create.
+  Always Be Learning
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  mess3109
