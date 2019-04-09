@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
 
-const PUBLIC_URL = 'https://mess3109.github.io/mess3109.github.io/';
+const PUBLIC_URL = 'https://mess3109.github.io/mollieelisabethstein.com/';
 
 class App extends Component {
 
