@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
 
+const PUBLIC_URL = 'https://mess3109.github.io/mess3109.github.io/';
+
 class App extends Component {
 
   constructor(props) {
@@ -24,7 +26,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <BrowserRouter basename={process.env.PUBLIC_URL} >
+        <BrowserRouter basename={PUBLIC_URL} >
           <Header />
           <NavBar onClickSelect={this.setSelected} selected={this.state.selected}/>
           <Route exact path="/about" component={About} />
