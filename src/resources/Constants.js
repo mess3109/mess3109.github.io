@@ -1,0 +1,1 @@
+export const about = 'I am a backend focused developer and my main language is Java but I’ve also programmed in JavaScript, Kotlin, Python, and Ruby. In my free time I bake, practice yoga, and play piano.';
