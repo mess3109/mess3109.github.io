@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL} >
           <Header />
           <NavBar onClickSelect={this.setSelected} selected={this.state.selected}/>
           <Route exact path="/about" component={About} />
