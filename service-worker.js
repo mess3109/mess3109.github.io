@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mollieelisabethstein/precache-manifest.7bb55398ace2c363b654e71bfa5e4c32.js"
+  "/molliestein.github.io/precache-manifest.4daf63451960d0a73e8fe6ae2f179d2a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/mollieelisabethstein/index.html", {
+workbox.routing.registerNavigationRoute("/molliestein.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
