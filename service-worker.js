@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mollieelisabethstein/precache-manifest.d98af64f0328ee6b47c49669c68b8954.js"
+  "/mollieelisabethstein/precache-manifest.7bb55398ace2c363b654e71bfa5e4c32.js"
 );
 
 workbox.clientsClaim();
