@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/mollieelisabethstein.com/static/css/main.fcbf7062.chunk.css"
   },
   {
-    "revision": "c898ece6195c446899d3994b4b4860de",
+    "revision": "e204d4139b462f373252aecdadc394e7",
     "url": "/mollieelisabethstein.com/index.html"
   }
 ];
